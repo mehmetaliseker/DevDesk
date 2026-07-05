@@ -1,0 +1,12 @@
+{
+  "name": "devdesk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open source customer support ticket management system.",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run start:dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
